@@ -12,3 +12,6 @@ alias postmaster="brew services stop postgres; cd /usr/local/var/postgres; rm po
 
 # Command line config:
 # ZSH GitPrompt: https://github.com/olivierverdier/zsh-git-prompt
+source ~/Development/zsh-git-prompt/zshrc.sh
+# an example prompt
+PROMPT='%B%m%~%b$(git_super_status) %# '
