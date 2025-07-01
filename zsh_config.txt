@@ -15,3 +15,10 @@ alias postmaster="brew services stop postgres; cd /usr/local/var/postgres; rm po
 source ~/Development/zsh-git-prompt/zshrc.sh
 # an example prompt
 PROMPT='%B%m%~%b$(git_super_status) %# '
+
+# Git Aliases:
+#Added by: `git config --global alias.co checkout`, or editing `git config`
+alias.co=checkout
+alias.st=status
+alias.br=branch
+alias.ci=commit
